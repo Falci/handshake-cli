@@ -1,0 +1,19 @@
+{
+  "name": "handshake-cli",
+  "version": "0.0.0",
+  "main": "lib/index.js",
+  "author": {
+    "name": "Fernando Falci",
+    "url": "https://falci.me"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "node lib/index.js"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "~": "./",
+    "hs-client": "^0.0.9"
+  },
+  "devDependencies": {}
+}
