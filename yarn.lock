@@ -42,12 +42,6 @@ bsock@~0.1.9:
   dependencies:
     bsert "~0.0.10"
 
-handshake-cli@./:
-  version "0.0.0"
-  dependencies:
-    blessed "^0.1.81"
-    hs-client "^0.0.9"
-
 hs-client@^0.0.9:
   version "0.0.9"
   resolved "https://registry.yarnpkg.com/hs-client/-/hs-client-0.0.9.tgz#05790253df1137cecde4bcb59a181ab79bd395b9"
@@ -56,3 +50,10 @@ hs-client@^0.0.9:
     bcfg "~0.1.6"
     bcurl "~0.1.9"
     bsert "~0.0.10"
+
+"~@./":
+  version "0.0.0"
+  dependencies:
+    blessed "^0.1.81"
+    hs-client "^0.0.9"
+    "~" "./"
